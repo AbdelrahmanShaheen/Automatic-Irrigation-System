@@ -1,6 +1,5 @@
 package com.task.automatic.irrigation.system.model;
 
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -18,13 +17,10 @@ public class IrrigationSlot {
     @Id
     private String id;
 
-    @NotNull
     private LocalDateTime startTime;
 
-    @NotNull
     private LocalDateTime endTime;
 
-    @NotNull
     private double waterAmount;
 
     private SlotStatus status = SlotStatus.NOT_STARTED;

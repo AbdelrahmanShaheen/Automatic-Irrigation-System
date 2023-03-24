@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri : mongodb+srv://shaheenabdelrahman28:me6GHSLlx5izYSmb@automatic-irrigation-sy.fpvgx21.mongodb.net/?retryWrites=true&w=majority
+      uri : ${URL}
       database : Plot
