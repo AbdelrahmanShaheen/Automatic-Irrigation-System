@@ -104,6 +104,8 @@
 
 </details>
 
+- Side Note : All queries that i used in this project are provided via functions from MongoRepository. So i do not have to write a custom query.
+
 ## Installation 📥
 
 To install and run the Spring Boot project, follow these steps:
